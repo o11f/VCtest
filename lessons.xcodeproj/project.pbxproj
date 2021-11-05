@@ -16,6 +16,7 @@
 		8318840827353C9E00905873 /* lessonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318840727353C9E00905873 /* lessonsTests.swift */; };
 		8318841227353C9E00905873 /* lessonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318841127353C9E00905873 /* lessonsUITests.swift */; };
 		8318841427353C9E00905873 /* lessonsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8318841327353C9E00905873 /* lessonsUITestsLaunchTests.swift */; };
+		83188421273543FC00905873 /* SettingsViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83188420273543FC00905873 /* SettingsViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8318840D27353C9E00905873 /* lessonsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lessonsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8318841127353C9E00905873 /* lessonsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonsUITests.swift; sourceTree = "<group>"; };
 		8318841327353C9E00905873 /* lessonsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lessonsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83188420273543FC00905873 /* SettingsViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				831883F027353C9E00905873 /* AppDelegate.swift */,
 				831883F227353C9E00905873 /* SceneDelegate.swift */,
 				831883F427353C9E00905873 /* ViewController.swift */,
+				83188420273543FC00905873 /* SettingsViewControler.swift */,
 				831883F627353C9E00905873 /* Main.storyboard */,
 				831883F927353C9E00905873 /* Assets.xcassets */,
 				831883FB27353C9E00905873 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			files = (
 				831883F527353C9E00905873 /* ViewController.swift in Sources */,
 				831883F127353C9E00905873 /* AppDelegate.swift in Sources */,
+				83188421273543FC00905873 /* SettingsViewControler.swift in Sources */,
 				831883F327353C9E00905873 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,6 +451,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -475,6 +480,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
